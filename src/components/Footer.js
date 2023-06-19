@@ -18,12 +18,17 @@ function Footer() {
         <Col md='4' className='footer-body'>
           <ul className='footer-icons'>
             <li className='social-icons'>
-              <a href='https://t.me/HoneypotChannel' style={{ color: 'white' }}>
+              <a
+                target='_blank'
+                href='https://t.me/HoneypotChannel'
+                style={{ color: 'white' }}
+              >
                 <FaTelegram />
               </a>
             </li>
             <li className='social-icons'>
               <a
+                target='_blank'
                 href='https://twitter.com/HoneypotChannel'
                 style={{ color: 'white' }}
               >

@@ -64,16 +64,24 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link as={Link} to='/' onClick={() => updateExpanded(false)}>
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: '2px' }}
-                />{' '}
-                Swap
+              <Nav.Link
+                target='_blank'
+                href='https://pancakeswap.finance/swap'
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFileDocument style={{ marginBottom: '2px' }} /> Swap
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link as={Link} to='/' onClick={() => updateExpanded(false)}>
-                <CgFileDocument style={{ marginBottom: '2px' }} /> Staking
+              <Nav.Link
+                target='_blank'
+                href='https://honeypot.is'
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: '2px' }}
+                />{' '}
+                Bot check
               </Nav.Link>
             </Nav.Item>
           </Nav>
