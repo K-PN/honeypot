@@ -166,7 +166,7 @@ html {
 }
 
 .logo {
-  height: 7em !important;
+  height: 6.5em !important;
   width: 5em !important;
 }
 
@@ -185,7 +185,7 @@ html {
     padding: 0.7rem 1rem !important;
   }
   .logo {
-    height: 3em !important;
+    height: 5em !important;
     width: 4em !important;
   }
 }
