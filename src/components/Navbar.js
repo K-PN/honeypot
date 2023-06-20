@@ -66,6 +66,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 target='_blank'
+                rel='noreferrer'
                 href='https://pancakeswap.finance/swap'
                 onClick={() => updateExpanded(false)}
               >
@@ -75,6 +76,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 target='_blank'
+                rel='noreferrer'
                 href='https://honeypot.is'
                 onClick={() => updateExpanded(false)}
               >

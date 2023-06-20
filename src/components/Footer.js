@@ -20,6 +20,7 @@ function Footer() {
             <li className='social-icons'>
               <a
                 target='_blank'
+                rel='noreferrer'
                 href='https://t.me/HoneypotChannel'
                 style={{ color: 'white' }}
               >
@@ -29,6 +30,7 @@ function Footer() {
             <li className='social-icons'>
               <a
                 target='_blank'
+                rel='noreferrer'
                 href='https://twitter.com/HoneypotChannel'
                 style={{ color: 'white' }}
               >
