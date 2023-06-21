@@ -29,7 +29,7 @@ function Home() {
                 <Type />
               </div>
               <h3>
-                <strong className='main-name'>Contract:</strong>
+                <strong className='main-name'>CA: 0x20416147d0D78eF186eE63d9c995058C5c8f59ab</strong>
               </h3>
               <ul className='home-about-social-links'>
                 <li className='social-icons'>

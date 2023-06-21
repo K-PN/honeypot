@@ -67,7 +67,7 @@ function NavBar() {
               <Nav.Link
                 target='_blank'
                 rel='noreferrer'
-                href='https://pancakeswap.finance/swap'
+                href='https://pancakeswap.finance/swap?outputCurrency=0x20416147d0D78eF186eE63d9c995058C5c8f59ab'
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: '2px' }} /> Swap
