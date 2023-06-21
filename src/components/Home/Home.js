@@ -29,7 +29,9 @@ function Home() {
                 <Type />
               </div>
               <h3>
-                <strong className='main-name'>CA: 0x20416147d0D78eF186eE63d9c995058C5c8f59ab</strong>
+                <strong className='main-name'>
+                  CA: 0x20416147d0D78eF186eE63d9c995058C5c8f59ab
+                </strong>
               </h3>
               <ul className='home-about-social-links'>
                 <li className='social-icons'>
@@ -53,6 +55,9 @@ function Home() {
                   </a>
                 </li>
               </ul>
+              <div id='dexscreener-embed'>
+                <iframe src='https://dexscreener.com/bsc/0x0910B40F8Aa803d63654de2c19b3B64670473312?embed=1&theme=dark&trades=0&info=0'></iframe>
+              </div>
             </Col>
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img src={homeLogo} alt='home pic' className='img-fluid' />
