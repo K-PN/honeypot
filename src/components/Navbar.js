@@ -4,9 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import logo from '../Assets/logo.png';
 import { Link } from 'react-router-dom';
-import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
-import { PiSwapBold } from 'react-icons/pi';
-import { PiRocketLaunchFill } from 'react-icons/pi';
+import { AiOutlineHome, AiOutlineUser, AiFillRocket, AiFillRobot } from 'react-icons/ai';
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { FaTelegram } from 'react-icons/fa';
 
@@ -64,7 +62,7 @@ function NavBar() {
                 to='/'
                 onClick={() => updateExpanded(false)}
               >
-                <PiSwapBold style={{ marginBottom: '2px' }} /> Swap
+                <AiFillRobot style={{ marginBottom: '2px' }} /> Swap
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -74,7 +72,7 @@ function NavBar() {
                 to='/'
                 onClick={() => updateExpanded(false)}
               >
-                <PiRocketLaunchFill style={{ marginBottom: '2px' }} /> Launchpad
+                <AiFillRocket style={{ marginBottom: '2px' }} /> Launchpad
               </Nav.Link>
             </Nav.Item>
           </Nav>
