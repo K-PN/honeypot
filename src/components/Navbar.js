@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import logo from '../Assets/logo.png';
 import { Link } from 'react-router-dom';
-import { AiOutlineHome, AiOutlineUser, AiFillRocket, AiFillRobot } from 'react-icons/ai';
+import { AiOutlineHome, AiOutlineUser, AiFillRocket, AiFillRobot, AiOutlineSwap } from 'react-icons/ai';
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { FaTelegram } from 'react-icons/fa';
 
@@ -52,7 +52,7 @@ function NavBar() {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link as={Link} to='/' onClick={() => updateExpanded(false)}>
-                <AiOutlineUser style={{ marginBottom: '2px' }} /> NFT
+                <AiFillRobot style={{ marginBottom: '2px' }} /> NFT
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -62,7 +62,7 @@ function NavBar() {
                 to='/'
                 onClick={() => updateExpanded(false)}
               >
-                <AiFillRobot style={{ marginBottom: '2px' }} /> Swap
+                <AiOutlineSwap style={{ marginBottom: '2px' }} /> Swap
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
