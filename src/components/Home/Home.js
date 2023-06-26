@@ -27,8 +27,11 @@ function Home() {
             </Col>
           </Row>
           <Button variant='danger' bsSize='large' active>
+  <a href="https://pancakeswap.finance/swap?outputCurrency=0x89161D84e2F13F2AFb0AA97701e335904800C8dc">
             <h4>Buy $METAPAD</h4>
+  </a>
           </Button>
+  <div id="dexscreener-embed"><iframe src="https://dexscreener.com/bsc/0xA7D575aC42E02263B0c094735b10a02298eabdDA?embed=1&theme=dark&trades=0&info=0"></iframe></div>
         </div>
         <Home2 />
         <Resume />
